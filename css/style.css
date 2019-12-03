@@ -17,8 +17,19 @@
   width: 90px;
   margin-right: 12px
 }
-
-.titulo{
-  font-size: 15px;
-  background-color: white;
+.gradiente img{
+  position: absolute;
 }
+/* .gradiente div{
+  position: relative;
+  top: 0px;
+} */
+.descripcion-sis h3{
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 8px 7px 11px;
+
+}
+
