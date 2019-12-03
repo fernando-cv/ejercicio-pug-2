@@ -1,0 +1,24 @@
+.background-header{
+  background-color: #0c70bf;
+  padding: 5px 0px;
+  height: 60px;
+}
+.menu-hamburguesa{
+  border-right: 1px solid white;
+  padding-top: 10px;
+  margin: 8px 10px 1px 0;
+}
+.menu-hamburguesa div{
+  border-top: 2px solid white;
+  margin-bottom: 5px;
+  /* margin-top: 17px; */
+}
+.logos-header img{
+  width: 90px;
+  margin-right: 12px
+}
+
+.titulo{
+  font-size: 15px;
+  background-color: white;
+}
