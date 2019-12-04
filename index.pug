@@ -5,29 +5,39 @@ html(lang="es")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     title Perú 21
-    link(rel="stylesheet", href="css/fontawesome-all.css")
+    link(rel="stylesheet", href="fontawesome-free-5.0.1/css/fontawesome-all.css")
     link(rel="stylesheet", href="css/bootstrap.min.css")
     link(rel="stylesheet", href="css/style.css")
   body
     header.background-header
       div.container
         div.row
-          div.col-2.menu-hamburguesa
-            div
-            div
-            div
+          a(href="#").menu-hamburguesa.d-flex
+            i.fa.fa-bars
+            span.d-none.d-sm-block Menú
           div.logos-header
             a(href="#"): img(src="img/white-logo.webp", alt="")
             a(href="#"): img(src="img/otorongo.webp", alt="")
-            //- a(href="#"): <i class="fas fa-user-circle"></i>
+            a(href="#"): i.fas.fa-user-circle
     div.container
       div.row
         div.titulo.col-12
           h2 Economía
         article.gradiente.col-12
-          a(href="#")
-            img(src="img/sis.jpg", alt="").img-fluid
-            div.descripcion-sis.col-6
-              h3 economía
-              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit incidunt nam adipisci itaque accusantium ipsa eaque veritatis similique ut.
-              span redación perú 21
+            img(src="img/sis.jpg", alt="").h-full.w-full
+            div.descripcion-sis.col-8
+              h3: a(href="#") economía
+              p: a(href="#") Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit incidunt nam adipisci itaque accusantium.
+              span: a(href="#") redacción perú 21
+        article.gradiente.col-12
+            img(src="img/sis.jpg", alt="")
+            div.descripcion-sis.col-10
+              h3: a(href="#") economía
+              p: a(href="#") Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit incidunt nam adipisci itaque accusantium.
+              span: a(href="#") redacción perú 21
+        article.gradiente.col-12
+            img(src="img/sis.jpg", alt="")
+            div.descripcion-sis.col-8
+              h3: a(href="#") economía
+              p: a(href="#") Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit incidunt nam adipisci itaque accusantium.
+              span: a(href="#") redacción perú 21

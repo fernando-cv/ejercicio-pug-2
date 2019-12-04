@@ -5,8 +5,10 @@
 }
 .menu-hamburguesa{
   border-right: 1px solid white;
-  padding-top: 10px;
-  margin: 8px 10px 1px 0;
+  padding-top: 5px;
+  margin: 11px 15px 4px 15px;
+  padding-right: 20px;
+  color: white;
 }
 .menu-hamburguesa div{
   border-top: 2px solid white;
@@ -17,19 +19,43 @@
   width: 90px;
   margin-right: 12px
 }
+.logos-header i{
+  font-size: 30px;
+    color: white;
+}
+.gradiente{
+  padding: 0;
+  margin-bottom: 30px;
+}
 .gradiente img{
   position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
-/* .gradiente div{
-  position: relative;
-  top: 0px;
-} */
+.descripcion-sis{
+  margin: 100px 0px 15px 15px;
+}
+.descripcion-sis a{
+  color: white  
+}
 .descripcion-sis h3{
-  text-transform: uppercase;
-  font-size: 13px;
-  color: white;
   border: 1px solid white;
-  padding: 8px 8px 7px 11px;
-
+  font-size: 13px; 
+  text-transform: uppercase;
+  width: 85px;
+  padding: 5px 0 5px 8px;
+}
+.descripcion-sis p{
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.descripcion-sis span{
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
+@media (min-width:992px){
+
+}
